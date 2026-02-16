@@ -1,0 +1,218 @@
+html{
+    font-family:'Lucida Sans';
+}
+body {
+    background-color: #39ac4d;
+}
+#s1{
+    text-align: center;
+}
+#s1 header {
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    background-color: #0d3a1e;
+}
+
+#s1 header h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+#s1 nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#s1 nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#s1 nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+#s1 nav ul li a:hover {
+    background-color: #3e8154;
+    box-shadow: 0 0 10px #6edb9b;
+}
+#s2 {
+    padding: 40px;
+}
+
+.ta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.texto {
+    width: 50%;
+}
+
+#s2 .imagem img {
+    width: 300px;
+    border-radius: 10px;
+}
+#s2 .imagem img:hover {
+    background-color: #3e8154;
+    box-shadow: 0 0 10px #6edb9b;
+}
+#s3 {
+    text-align: center;
+    padding: 40px;
+}
+#s3 img {
+    margin-top: 50px;
+    width: 600px;
+    height: auto;
+}
+#s3 h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d3a1e;
+    color: white;
+    border-radius: 8px;
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+#s3 p{
+    margin: 30px;
+}
+#s4 {
+    padding: 40px;
+}
+
+#s4 .titulo {
+    margin-bottom: 20px;
+}
+
+#s4 .imagem {
+    padding: 10px;
+    width: 250px;
+    display: block;
+}
+
+#s4 .imagem img {
+    width: 250px;
+    display: block;
+    border-radius: 10px;
+
+}
+
+#s4 .texto {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#s4 .titulo {
+    margin-bottom: 20px;
+}
+
+#s4 .edd {
+    display: flex;
+    background-color: #0d3a1e;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    color: white;
+}
+
+#s4 .edd:hover {
+    background-color: #1a8b40;
+    box-shadow: 0 0 10px #6edb9b;
+    transform: scale(1.03);
+}
+
+
+#s4 .imagem {
+    padding: 10px;
+    width: 250px;
+    display: block;
+}
+
+#s4 .imagem img {
+    width: 250px;
+    display: block;
+}
+#s4 .tom {
+    display: flex;
+    background-color: #110d3a;
+    padding: 20px;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    color: white;
+
+}
+#s4 .tom:hover {
+    background-color: #1a1b75;
+    box-shadow: 0 0 10px #706edb;
+    transform: scale(1.03);}
+
+#s4 .matt {
+    display: flex;
+    background-color: #3a0d3a;
+    padding: 20px;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    color: white;
+}
+#s4 .matt:hover {
+    background-color: #751a75;
+    box-shadow: 0 0 10px #db6edb;
+    transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+#s4 .tord {
+    display: flex;
+    background-color: #4d1111;
+    padding: 20px;
+    gap: 20px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    color: white;
+}
+#s4 .tord:hover {
+    background-color: #bb1919;
+    box-shadow: 0 0 10px #db6e6e;
+    transform: scale(1.03);
+}
+
+#s4 h1{
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    background-color: #0d3a1e;
+}
+#s4 h1{
+    color: white;
+    margin-bottom: 25px;
+}
+#border1{
+    padding: 20px;
+    background-color: white;  
+    border-radius: 20px;      
+    transition: transform 0.3s ease;
+}
+#border1:hover {
+    transform: scale(1.03);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #0d3a1e;
+    color: white;
+}
